@@ -1,17 +1,18 @@
 Security group
 ==============
 
-A tiny role for convenient management of the security groups in openstack
+A tiny role for convenient management of the security groups in Open Telekom Cloud.
 
 Requirements
 ------------
 
-It is required, that openstacksdk is installed on the execution host and connection to the OTC is provided.
+It is required, that openstacksdk is installed on the execution host and connection to Open Telekom Cloud is provided.
 
 Role Variables
 --------------
 
-A description of the setable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+    securitygroup_name: '' # creates security group with given name
+    description: '' # creates a description of the security group
 
 Dependencies
 ------------
