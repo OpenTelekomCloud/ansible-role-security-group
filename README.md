@@ -13,6 +13,11 @@ Role Variables
 
     securitygroup_name: '' # creates security group with given name
     description: '' # creates a description of the security group
+    rules:
+      - protocol: '' # udp, gre, tcp
+        port_range_min: '' # optional, 0 to 65535
+        port_range_max: '' # optional, 0 to 65535
+        remote_ip_prefix: '' # IP/netmask-suffix, 0.0.0.0/0 -> all IP adresses are allowed
 
 Dependencies
 ------------
