@@ -22,7 +22,7 @@ Role Variables
 Dependencies
 ------------
 
-- test
+- 
 
 Example Playbook
 ----------------
